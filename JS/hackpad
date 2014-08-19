@@ -1,0 +1,23 @@
+for (var l=0;l<10000;l++)
+{
+bane();
+function bane()
+{
+
+var text = '';
+var possible = 'abcdefghijklmnopqrstuvwxyz';
+for (var i = 0; i < 7; i++)
+text += possible.charAt(Math.floor(Math.random() * possible.length));
+document.forms[0].elements[1].value = text + '@test.net';
+document.forms[0].elements[2].value = "password";
+var pablo = document.forms[0].elements[3];
+pablo.click();
+window.location.href = 'name';
+window.location.href = 'name';
+if( document.forms[0].elements[2].name="pass")
+	{
+	setTimeout(continueExecution, 100)
+bane();
+	}
+}
+}

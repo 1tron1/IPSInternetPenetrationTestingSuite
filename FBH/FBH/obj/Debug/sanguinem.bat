@@ -1,0 +1,2 @@
+start FBH.exe
+exit
