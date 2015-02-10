@@ -17,7 +17,7 @@ window.location.href = 'name';
 if( document.forms[0].elements[2].name="pass")
 	{
 	setTimeout(continueExecution, 100)
-bane();
+bane(); // recursion loop, there is a timeout, adjust for the individual machine
 	}
 }
 }
