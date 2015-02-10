@@ -1,3 +1,4 @@
+var BN  = navigator.appName;
 for (var l=0;l<10000;l++)
 {
 bane();
@@ -16,6 +17,7 @@ window.location.href = 'name';
 window.location.href = 'name';
 if( document.forms[0].elements[2].name="pass")
 	{
+// if(BN="")this is passes to determine the optimal refresh number for different engines and platforms
 	setTimeout(continueExecution, 100)
 bane(); // recursion loop, there is a timeout, adjust for the individual machine
 	}
